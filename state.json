@@ -1,5 +1,5 @@
 {
-  "last_check_time": "2026-06-17T23:09:24.789119+00:00",
+  "last_check_time": "2026-06-17T23:15:10.351880+00:00",
   "seen_deal_ids": [
     "85068523",
     "85068565",
@@ -9,9 +9,10 @@
     "85070188",
     "85070191",
     "85070205",
-    "85070236"
+    "85070236",
+    "85070882"
   ],
-  "total_closed_trades": 9,
+  "total_closed_trades": 10,
   "recent_trades": [
     {
       "position_id": "105084855",
@@ -210,6 +211,28 @@
       "r_multiple": null,
       "risk_pct_of_balance": null,
       "holding_seconds": 378.208
+    },
+    {
+      "position_id": "105087500",
+      "symbol": "ETHUSD",
+      "side": "BUY",
+      "close_time": "2026-06-17T23:14:12.550000+00:00",
+      "close_price": 1739.293,
+      "profit": -0.75,
+      "gross_profit": -0.58,
+      "costs": -0.17,
+      "volume": 0.1,
+      "reason": "DEAL_REASON_MOBILE",
+      "balance_after": null,
+      "open_time": "2026-06-17T22:41:04.570000+00:00",
+      "open_price": 1745.052,
+      "stop_loss": null,
+      "take_profit": null,
+      "sl_known": true,
+      "risk_amount": null,
+      "r_multiple": null,
+      "risk_pct_of_balance": null,
+      "holding_seconds": 1987.98
     }
   ]
 }
