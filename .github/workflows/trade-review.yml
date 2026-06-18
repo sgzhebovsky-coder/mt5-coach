@@ -2,10 +2,9 @@ name: MT5 Trade Review
 
 on:
   schedule:
-    - cron: '4,19,34,49 * * * *'   # каждые 15 минут, но НЕ на круглых минутах (00/15/30/45) —
-                                     # GitHub предупреждает, что именно круглые минуты перегружены
-                                     # и расписание может срабатывать с задержкой или вовсе теряться
-  workflow_dispatch: {}       # позволяет запустить вручную из вкладки Actions для теста
+    # every 15 minutes, but not on round minutes (00/15/30/45) — GitHub warns those are the busiest
+    - cron: '4,19,34,49 * * * *'
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -30,7 +29,7 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
 
-      - name: Сохранить state.json обратно в репозиторий
+      - name: Save state.json back to the repository
         run: |
           git config user.name "trade-review-bot"
           git config user.email "actions@users.noreply.github.com"
