@@ -1,5 +1,5 @@
 {
-  "last_check_time": "2026-06-18T07:07:00.770947+00:00",
+  "last_check_time": "2026-06-18T17:46:18.742508+00:00",
   "seen_deal_ids": [
     "85068523",
     "85068565",
@@ -42,54 +42,12 @@
     "85089663",
     "85089784",
     "85089955",
-    "85090133"
+    "85090133",
+    "85091863",
+    "85092651"
   ],
-  "total_closed_trades": 42,
+  "total_closed_trades": 44,
   "recent_trades": [
-    {
-      "position_id": "105119058",
-      "symbol": "GBPUSD",
-      "side": "BUY",
-      "close_time": "2026-06-18T06:50:16.155000+00:00",
-      "close_price": 1.33206,
-      "profit": -16,
-      "gross_profit": -14,
-      "costs": -2,
-      "volume": 0.5,
-      "reason": "DEAL_REASON_MOBILE",
-      "balance_after": null,
-      "open_time": "2026-06-18T06:47:24.064000+00:00",
-      "open_price": 1.33234,
-      "stop_loss": null,
-      "take_profit": null,
-      "sl_known": true,
-      "risk_amount": null,
-      "r_multiple": null,
-      "risk_pct_of_balance": null,
-      "holding_seconds": 172.091
-    },
-    {
-      "position_id": "105119730",
-      "symbol": "BTCUSD",
-      "side": "BUY",
-      "close_time": "2026-06-18T06:58:08.576000+00:00",
-      "close_price": 64030.24,
-      "profit": -45.330000000000005,
-      "gross_profit": -13.31,
-      "costs": -32.02,
-      "volume": 0.5,
-      "reason": "DEAL_REASON_SL",
-      "balance_after": null,
-      "open_time": "2026-06-18T06:58:05.858000+00:00",
-      "open_price": 64056.85,
-      "stop_loss": 64033.48,
-      "take_profit": null,
-      "sl_known": true,
-      "risk_amount": null,
-      "r_multiple": null,
-      "risk_pct_of_balance": null,
-      "holding_seconds": 2.718
-    },
     {
       "position_id": "105119749",
       "symbol": "BRN",
@@ -265,6 +223,50 @@
       "r_multiple": null,
       "risk_pct_of_balance": null,
       "holding_seconds": 17.276
+    },
+    {
+      "position_id": "105119777",
+      "symbol": "XAUUSD",
+      "side": "BUY",
+      "close_time": "2026-06-18T07:33:05.201000+00:00",
+      "close_price": 4300,
+      "profit": -294,
+      "gross_profit": -292,
+      "costs": -2,
+      "volume": 0.5,
+      "reason": "DEAL_REASON_SL",
+      "balance_after": null,
+      "open_time": "2026-06-18T06:58:30.197000+00:00",
+      "open_price": 4305.84,
+      "stop_loss": 4300,
+      "take_profit": null,
+      "sl_known": true,
+      "risk_amount": null,
+      "r_multiple": null,
+      "risk_pct_of_balance": null,
+      "holding_seconds": 2075.004
+    },
+    {
+      "position_id": "105124471",
+      "symbol": "BTCUSD",
+      "side": "BUY",
+      "close_time": "2026-06-18T07:40:17.145000+00:00",
+      "close_price": 64374.56,
+      "profit": -0.43000000000000016,
+      "gross_profit": 2.79,
+      "costs": -3.22,
+      "volume": 0.05,
+      "reason": "DEAL_REASON_MOBILE",
+      "balance_after": null,
+      "open_time": "2026-06-18T07:36:49.012000+00:00",
+      "open_price": 64318.89,
+      "stop_loss": null,
+      "take_profit": null,
+      "sl_known": true,
+      "risk_amount": null,
+      "r_multiple": null,
+      "risk_pct_of_balance": null,
+      "holding_seconds": 208.133
     }
   ],
   "equity_curve": [
@@ -395,6 +397,14 @@
     {
       "n": 42,
       "balance": -119.43999999999993
+    },
+    {
+      "n": 43,
+      "balance": -413.43999999999994
+    },
+    {
+      "n": 44,
+      "balance": -413.86999999999995
     }
   ],
   "last_10_metrics": {
