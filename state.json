@@ -1,5 +1,5 @@
 {
-  "last_check_time": "2026-06-19T13:02:03.768289+00:00",
+  "last_check_time": "2026-06-19T19:17:51.172992+00:00",
   "seen_deal_ids": [
     "85068523",
     "85068565",
@@ -44,32 +44,11 @@
     "85089955",
     "85090133",
     "85091863",
-    "85092651"
+    "85092651",
+    "85238719"
   ],
-  "total_closed_trades": 44,
+  "total_closed_trades": 45,
   "recent_trades": [
-    {
-      "position_id": "105119749",
-      "symbol": "BRN",
-      "side": "BUY",
-      "close_time": "2026-06-18T07:01:15.125000+00:00",
-      "close_price": 77.74,
-      "profit": -95,
-      "gross_profit": -95,
-      "costs": 0,
-      "volume": 0.5,
-      "reason": "DEAL_REASON_MOBILE",
-      "balance_after": null,
-      "open_time": "2026-06-18T06:58:16.394000+00:00",
-      "open_price": 77.93,
-      "stop_loss": 77,
-      "take_profit": null,
-      "sl_known": true,
-      "risk_amount": null,
-      "r_multiple": null,
-      "risk_pct_of_balance": null,
-      "holding_seconds": 178.731
-    },
     {
       "position_id": "105119823",
       "symbol": "FDAX",
@@ -267,6 +246,28 @@
       "r_multiple": null,
       "risk_pct_of_balance": null,
       "holding_seconds": 208.133
+    },
+    {
+      "position_id": "105320665",
+      "symbol": "FDAX",
+      "side": "BUY",
+      "close_time": "2026-06-19T16:36:45.080000+00:00",
+      "close_price": 25202.1,
+      "profit": 30.84,
+      "gross_profit": 30.84,
+      "costs": 0,
+      "volume": 0.05,
+      "reason": "DEAL_REASON_MOBILE",
+      "balance_after": null,
+      "open_time": "2026-06-19T12:38:24.866000+00:00",
+      "open_price": 25148.3,
+      "stop_loss": null,
+      "take_profit": null,
+      "sl_known": true,
+      "risk_amount": null,
+      "r_multiple": null,
+      "risk_pct_of_balance": null,
+      "holding_seconds": 14300.214
     }
   ],
   "equity_curve": [
@@ -405,6 +406,10 @@
     {
       "n": 44,
       "balance": -413.86999999999995
+    },
+    {
+      "n": 45,
+      "balance": -383.03
     }
   ],
   "last_10_metrics": {
